@@ -18,7 +18,7 @@ def volver_a_origen(x,y):
     value = process.read(xcordenate)
     value2 = process.read(ycordenate)
 
-    print(value,value2)
+    #print(value,value2)
 
     while x != value and y != value2:
         if y> value2:
